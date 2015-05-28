@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body,
+.sans-serif {
+    font-family: "avenir next", avenir, helvetica, "helvetica neue", arial, sans-serif !important;
+    color: #444;
+}
+
+.code {
+    font-family: Consolas, monaco, monospace;
+}
+
+.serif-calisto {
+    font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+    line-height: 2em;
+    color: #555;
+}
+
+.main {
+    padding-top: 25px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.top h3 {
+    letter-spacing: 5px;
+}
+
+.top p {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid;
+    color: #777;
+}
+
+.content {
+    padding: 25px 0 25px 0;
+}
+
+.content-h {
+    color: #333;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.project {
+    padding: 25px 0 25px 0;
+}
+
+.project-h {
+    transition: color .5s;
+    font-size: 1.25em;
+}
+
+.project-h:hover {
+    transition: color .5s;
+    color: #1abc9c;
+}
+
+.about {
+    padding: 25px 0 25px 0;
+}
+
+.footer {
+    padding: 25px 0 25px 0;
+}
+
+.footer-inside {
+    padding-top: 25px;
+}
+
+a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: #444;
+    transition: color .5s;
+}
+
+a:hover {
+    transition: color .5s;
+    color: #1abc9c;
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 90%;
+    }
+    a {
+        display: block;
+        padding: 5px 0 5px 0;
+    }
+}
