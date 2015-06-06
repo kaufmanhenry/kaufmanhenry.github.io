@@ -88,6 +88,7 @@ a {
     text-decoration: none;
     color: #444;
     transition: color .5s;
+    padding: 0;
 }
 
 a:hover {
