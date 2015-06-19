@@ -67,6 +67,7 @@ body {
 .image-div-right p {
     color: #7F8C8D;
 }
+
 .image-div-right h3 {
     font-size: 1.3em;
 }
@@ -86,21 +87,13 @@ body {
     color: #00a8ff;
 }
 
-<<<<<<< HEAD
 .fa {
     padding: 0 10px 0 10px;
-=======
-.ratchettLink {
-    text-decoration: none;
-    color: #444;
-    transition: color .5s;
-    padding: 0;
 }
 
 a:hover {
     transition: color .5s;
     color: #1abc9c;
->>>>>>> origin/master
 }
 
 @media (max-width: 640px) {
