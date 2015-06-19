@@ -1,100 +1,108 @@
+@font-face {
+    src: url(Nunito-Regular.ttf);
+    font-family: Nunito;
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
 html,
-body,
-.sans-serif {
-    font-family: "avenir next", avenir, helvetica, "helvetica neue", arial, sans-serif !important;
-    color: #444;
+body {
+    font-family: Nunito;
+    height: 100%;
+    width: 100%;
 }
 
-.code {
-    font-family: Consolas, monaco, monospace;
+.outer {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
 
-.serif-calisto {
-    font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
-    line-height: 2em;
-    color: #555;
+.inner {
+    display: table-cell;
+    vertical-align: middle;
 }
 
-.main {
-    padding-top: 25px;
-    width: 60%;
+.image-div {
+    display: table;
+    height: 100px;
     margin: 0 auto;
 }
 
-.top h3 {
-    letter-spacing: 5px;
+.inner-image-div {
+    display: table-cell;
+    vertical-align: middle;
 }
 
-.top p {
-    font-size: 12px;
-    letter-spacing: 2px;
+.image-div-left {
+    display: inline-block;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid;
-    color: #777;
+.image-div-right {
+    height: 100px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.image-div-right-outer {
+    display: table;
+    height: 100px;
+}
+
+.image-div-right-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image-div-left img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.image-div-right p {
+    color: #7F8C8D;
+}
+.image-div-right h3 {
+    font-size: 1.3em;
 }
 
 .content {
     padding: 25px 0 25px 0;
+    color: #7F8C8D;
+    line-height: 1.75em;
+    font-size: .9em;
+    margin: 0 auto;
+    width: 290px;
 }
 
-.content-h {
-    color: #333;
-    font-size: 12px;
-    letter-spacing: 2px;
+.info,
+.fa,
+.image-div-right h3 {
+    color: #00a8ff;
 }
 
-.project {
-    padding: 25px 0 25px 0;
+.fa {
+    padding: 0 10px 0 10px;
 }
 
-.project-h {
-    transition: color .5s;
-    font-size: 1.25em;
-}
-
-.project-h:hover {
-    transition: color .5s;
-    color: #1abc9c;
-}
-
-.about {
-    padding: 25px 0 25px 0;
-}
-
-.footer {
-    padding: 25px 0 25px 0;
-}
-
-.footer-inside {
-    padding-top: 25px;
-}
-
-a {
-    padding-right: 10px;
-    text-decoration: none;
-    color: #444;
-    transition: color .5s;
-}
-
-a:hover {
-    transition: color .5s;
-    color: #1abc9c;
-}
-
-@media (max-width: 768px) {
-    .main {
-        width: 90%;
+@media (max-width: 640px) {
+    .outer {
+        padding: 25px 0 25px 0;
     }
-    a {
+    .content {
+        width: 80%;
+        font-size: 1em;
+    }
+    .image-div-left {
         display: block;
-        padding: 5px 0 5px 0;
+    }
+    .image-div-right {
+        text-align: center;
+        display: block;
     }
 }
