@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 
 * {
     padding: 0;
@@ -7,7 +7,7 @@
 
 html,
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     height: 100%;
     width: 100%;
 }
