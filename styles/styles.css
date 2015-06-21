@@ -83,6 +83,10 @@ body {
     color: #34AADC;
 }
 
+.image-div-right h3 {
+    letter-spacing: 3px;
+}
+
 .fa {
     padding: 0 10px 0 10px;
 }
