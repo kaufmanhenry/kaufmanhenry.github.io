@@ -61,7 +61,7 @@ body {
 }
 
 .image-div-right p {
-    color: #7F8C8D;
+    color: #555;
 }
 
 .image-div-right h3 {
@@ -70,7 +70,7 @@ body {
 
 .content {
     padding: 25px 0 25px 0;
-    color: #7F8C8D;
+    color: #555;
     line-height: 1.75em;
     font-size: .9em;
     margin: 0 auto;
