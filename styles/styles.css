@@ -3,7 +3,6 @@
     margin: 0;
 }
 
-
 html,
 body {
     font-family: "avenir next", avenir, helvetica, "helvetica neue", arial, sans-serif !important;
@@ -87,8 +86,11 @@ body {
     letter-spacing: 5px;
 }
 
-.fa {
-    padding: 0 10px 0 10px;
+.links a {
+    padding: 10px;
+    letter-spacing: 2px;
+    color: #34AADC;
+    text-decoration: none;
 }
 
 a:hover {
@@ -98,7 +100,7 @@ a:hover {
 
 @media (max-width: 640px) {
     .outer {
-        padding: 25px 0 25px 0;
+        padding: 50px 0 50px 0;
     }
     .content {
         width: 80%;
@@ -109,6 +111,9 @@ a:hover {
     }
     .image-div-right {
         text-align: center;
+        display: block;
+    }
+    .links a {
         display: block;
     }
 }
