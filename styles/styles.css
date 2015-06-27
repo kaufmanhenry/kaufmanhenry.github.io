@@ -57,9 +57,9 @@ hr {
     padding: 25px 0 25px 0;
     color: #8E8E93;
     line-height: 1.6em;
-    font-size: 1em;
     margin: 0 auto;
     width: 300px;
+    text-align: justify;
 }
 
 .content a {
@@ -88,6 +88,5 @@ hr {
     }
     .content {
         width: 80%;
-        font-size: 1em;
     }
 }
