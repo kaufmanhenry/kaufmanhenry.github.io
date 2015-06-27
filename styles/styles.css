@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Karla);
+
 * {
     padding: 0;
     margin: 0;
@@ -5,9 +7,17 @@
 
 html,
 body {
-    font-family: "avenir next", avenir, helvetica, "helvetica neue", arial, sans-serif !important;
+    font-family: 'Karla', sans-serif;
     height: 100%;
     width: 100%;
+}
+
+hr {
+    width: 300px;
+    border: none;
+    height: 2px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
 }
 
 .outer {
@@ -22,64 +32,43 @@ body {
     vertical-align: middle;
 }
 
-.image-div {
-    display: table;
-    height: 100px;
-    margin: 0 auto;
+.top-section {
+    padding: 25px 0 25px 0;
 }
 
-.inner-image-div {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.image-div-left {
-    display: inline-block;
-}
-
-.image-div-right {
-    height: 100px;
-    display: inline-block;
-    text-align: left;
-    margin-left: 10px;
-}
-
-.image-div-right-outer {
-    display: table;
-    height: 100px;
-}
-
-.image-div-right-content {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.image-div-left img {
-    height: 100px;
+.top-section img {
+    width: 7%;
     border-radius: 50%;
+    padding: 10px 0 10px 0;
 }
 
-.image-div-right p {
-    color: #555;
-}
-
-.image-div-right h3 {
+.top-section h3 {
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+    color: #333;
     font-size: 1.3em;
+}
+
+.top-section p {
+    color: #C7C7CC;
 }
 
 .content {
     padding: 25px 0 25px 0;
-    color: #555;
-    line-height: 1.75em;
-    font-size: .9em;
+    color: #8E8E93;
+    line-height: 1.6em;
+    font-size: 1em;
     margin: 0 auto;
-    width: 290px;
+    width: 300px;
 }
 
-.info,
-.fa,
-.image-div-right h3 {
-    color: #34AADC;
+.content a {
+    color: #007AFF;
+    text-decoration: none;
+}
+
+.info {
+    color: #007AFF;
 }
 
 .image-div-right h3 {
@@ -93,11 +82,6 @@ body {
     text-decoration: none;
 }
 
-a:hover {
-    transition: color .5s;
-    color: #1abc9c;
-}
-
 @media (max-width: 640px) {
     .outer {
         padding: 50px 0 50px 0;
@@ -105,15 +89,5 @@ a:hover {
     .content {
         width: 80%;
         font-size: 1em;
-    }
-    .image-div-left {
-        display: block;
-    }
-    .image-div-right {
-        text-align: center;
-        display: block;
-    }
-    .links a {
-        display: block;
     }
 }
