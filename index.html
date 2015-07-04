@@ -1,34 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='app'>
 
 <head>
     <meta charset="UTF-8">
     <title>Henry Kaufman</title>
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="https://photos-6.dropbox.com/t/2/AADqqM7YgGbGiW5LQb-0s2Q2o3g7mwZKy1qY_6JAnuMvJg/12/333559208/png/32x32/1/_/1/2/favicon.png/CKjrhp8BIAEgAiAHKAIoBw/lhMQbQJl3Iog_S3xPVy0iHZ7Lsf8kJsHMDmewTWVnsI?size=1024x768&size_mode=2">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.3.16/angular-route.min.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
-    <div class="outer">
-        <div class="inner">
-            <div class="top-section">
-                <img src="imgs/image.jpg" alt="profile-photo">
-                <br>
-                <h3>Henry Kaufman</h3>
-                <small>Designer, Developer, Entrepreneur</small>
-            </div>
-            <hr>
-            <div class="content">Hi there! Currently I am building some cool stuff with <a href="http://mozaictech.net">MozaicTech</a>, but in my freetime I do <a href="freelance.html">freelance</a> work, as well as build <a href="http://themn.ml/projects">cool web stuff</a>. I am in the process of building a few different startups, will be updating soon!
-                <br>
-                <br> Find me on <a href="https://twitter.com/hcjk_">Twitter</a>,
-                <a href="https://github.com/hcjk">GitHub</a>,
-                <a href="https://dribbble.com/hcjk">Dribbble</a>, and check out my
-                <a href="http://themn.ml">blog</a>.
-                <br>
-            </div>
-        </div>
-    </div>
+    <div ng-view ng-controller='MainCtrl' class='outer'></div>
 </body>
 
 </html>
