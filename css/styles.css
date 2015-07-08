@@ -1,4 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Karla);
+@font-face {
+    src: url(Azo-Sans-Regular.otf);
+    font-family: AzoSans;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +10,7 @@
 
 html,
 body {
-    font-family: 'Karla', sans-serif;
+    font-family: AzoSans, sans-serif;
     height: 100%;
     width: 100%;
 }
