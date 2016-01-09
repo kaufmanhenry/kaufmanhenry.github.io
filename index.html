@@ -1,20 +1,91 @@
 <!DOCTYPE html>
-<html lang="en" ng-app='app'>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Henry Kaufman</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name='description' content='Landing page for Henry Kaufman'>
+    <title>Henry Kaufman - Full Stack Developer and Entrepreneur</title>
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name='robots' content='all'>
+    <meta name="description" content="Henry Kaufman - Full Stack Developer and Entrepreneur">
 </head>
 
 <body>
-    <div ng-view ng-controller='MainCtrl' class='outer'></div>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
-    <script src="https://code.angularjs.org/1.3.16/angular-route.min.js"></script>
-    <script src="index.js"></script>
+    <div class="top outer">
+        <div class="inside inner">
+            <h1>HENRY KAUFMAN</h1>
+            <i>Full Stack Developer and Entrepreneur</i>
+        </div>
+    </div>
+    <div class="content">
+        <div class="inside">
+            <p>Hi there! I am a freelance designer and developer living in Denver, Colorado. In my freetime, I build cool web projects. I enjoy programming in HTML, CSS, JavaScript, and other JavaScript frameworks. Check out some of my work below.</p>
+            <br>
+            <h1>PROJECTS</h1>
+            <div class="projects">
+                <div class="project p-first">
+                    <div class="inside-project outer">
+                        <div class="inner">
+                            <h2><a href="http://yeet.im">YEET</a></h2>
+                            <p>A simple way to add realtime chat to a website.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="inside-project outer">
+                        <div class="inner">
+                            <h2><a href="https://identity.hcjk.co">IDENTITY</a></h2>
+                            <p>A fast way to have an internet presence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project p-first">
+                    <div class="inside-project outer">
+                        <div class="inner">
+                            <h2><a href="https://github.com/hcjk/editor">EDITOR</a></h2>
+                            <p>A collaborative markdown editor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="inside-project outer">
+                        <div class="inner">
+                            <h2><a href="http://athingaweek.com">A THING A WEEK</a></h2>
+                            <p>A Slack group focused on creating an awesome things every week.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Get in touch with me. Email me at <a href="mailto:me@hcjk.co">me@hcjk.co</a>.</p>
+                <br>
+                <p>Follow me on <a href="https://twitter.com/hcjk_">Twitter</a>, <a href="https://github.com/hcjk">GitHub</a>, <a href="http://dribbble.com/hcjk">Dribbble</a>, and <a href="https://medium.com/@hcjk">Medium</a>. Subscribe to me on <a href="https://youtube.com/henrykaufman">YouTube</a> where I make videos.</p>
+            </div>
+        </div>
+        <script src="https://use.typekit.net/jls6aom.js"></script>
+        <script>
+            try {
+                Typekit.load({
+                    async: true
+                });
+            } catch (e) {}
+        </script>
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-64318963-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </div>
 </body>
 
 </html>
