@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +9,9 @@ html,
 body {
     height: 100%;
     width: 100%;
-    font-family: 'brandon-grotesque', sans-serif;
-    font-family: 'europa';
     background-color: #ecf0f1;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
 }
 
 .outer {
@@ -112,12 +114,13 @@ a:hover {
 
 @media (min-width: 51em) and (max-width: 68.75em) {
     .inside {
-        width: 90%;
+        width: 80%;
     }
 }
 
 @media (max-width: 51em) {
     .inside {
+        padding: 25px 0;
         width: 90%;
     }
     .p-first {
