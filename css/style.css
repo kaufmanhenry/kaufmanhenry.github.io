@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
-
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +9,9 @@ body {
     height: 100%;
     width: 100%;
     background-color: #ecf0f1;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .outer {
