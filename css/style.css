@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -177,18 +177,22 @@ nav h3 {
     margin: 50px auto;
     width: 60%;
 }
+
 .contact h2 {
     font-weight: 400;
     color: #333;
 }
+
 .contact p {
     color: #555;
     margin-top: 10px;
 }
+
 .contact a {
     text-decoration: none;
     color: #aaa;
 }
+
 .contact a:hover {
     color: #333;
 }
@@ -197,6 +201,7 @@ nav h3 {
     font-size: 20px;
     margin-top: 10px;
 }
+
 .icons a {
     margin-right: 10px;
 }
@@ -221,8 +226,8 @@ nav h3 {
     .nav-right a {
         margin: 10px 10px 0 0;
     }
-    
 }
+
 @media (max-width: 30rem) {
     .box small {
         width: auto;
