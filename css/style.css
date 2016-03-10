@@ -205,6 +205,16 @@ nav h3 {
 .icons a {
     margin-right: 10px;
 }
+.other-work {
+    color: #555;
+}
+.other-work a {
+    text-decoration: none;
+    color: #aaa;
+}
+.other-work a:hover {
+    color: #333;
+}
 
 @media (max-width: 40em) {
     .main,
