@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='app'>
 
 <head>
     <meta charset="UTF-8">
@@ -15,63 +15,16 @@
 <body>
     <nav class="outer">
         <div class="inner">
-            <h3>Henry Kaufman</h3>
+            <h3><a href="/#/">Henry Kaufman</a></h3>
             <div class="nav-right">
+                <a href="/#/" class="hvr-underline-reveal">Work</a>
+                <a href="/#/lab" class="hvr-underline-reveal">Lab</a>
                 <a href="#about" class="hvr-underline-reveal">About</a>
-                <a href="#work" class="hvr-underline-reveal">Work</a>
                 <a href="mailto:hello@henrykaufman.me" class="hvr-underline-reveal">Contact</a>
             </div>
         </div>
     </nav>
-    <section class="main outer">
-        <h1>I create beautiful products.</h1>
-        <h2>Designer and Full Stack Developer from Denver.</h2>
-    </section>
-    <section class="about" id="about">
-        <p>Hi there! I am a freelance designer and developer living in Denver, Colorado. In my freetime, I build cool web projects. I enjoy programming in HTML, CSS, JavaScript, and other JavaScript frameworks. I work with the backend as well, using NodeJS, MongoDB, and RethinkDB to create projects.</p>
-    </section>
-    <section class="work" id="work">
-        <h2>Recent Work</h2>
-        <div class="sec-work">
-            <img src="imgs/tela.png" alt="">
-            <div class="box">
-                <h1>Tela Threads</h1>
-                <p>An online store focused on selling modern apparel.</p>
-                <br>
-                <a href="https://www.telathreads.com" target="_blank">Visit Site&nbsp;&nbsp;➝</a>
-                <br>
-                <br>
-                <small>DESIGN</small><small>FULL STACK DEVELOPMENT</small>
-            </div>
-        </div>
-        <div class="sec-work">
-            <img src="imgs/yeet.png" alt="">
-            <div class="box">
-                <h1>Yeet</h1>
-                <p>A simple way to add realtime chat to a website.</p>
-                <br>
-                <a href="http://yeet.im" target="_blank">Visit Site&nbsp;&nbsp;➝</a>
-                <br>
-                <br>
-                <small>DESIGN</small><small>FULL STACK DEVELOPMENT</small>
-            </div>
-        </div>
-        <div class="sec-work">
-            <img src="imgs/reams.png" alt="">
-            <div class="box">
-                <h1>Reams</h1>
-                <p>The centerplace for all my design work.</p>
-                <br>
-                <a href="http://reams.org" target="_blank">Visit Site&nbsp;&nbsp;➝</a>
-                <br>
-                <br>
-                <small>DESIGN</small>
-            </div>
-        </div>
-        <br>
-        <div class="other-work">
-            <h2>Other Work</h2>You can view all my work <a href="http://projects.henrykaufman.me" target="_blank">here</a>.</div>
-    </section>
+    <div ng-view></div>
     <section class="contact">
         <h2>Want to work together?</h2>
         <p>Drop me a line at <a href="mailto:hello@henrykaufman.me">hello@henrykaufman.me</a>.</p>
@@ -99,31 +52,9 @@
         ga('create', 'UA-64318963-2', 'auto');
         ga('send', 'pageview');
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script>
-        $(function () {
-            $('a[href*="#"]:not([href="#"])').click(function () {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html, body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
-    </script>
-    <script src="https://use.typekit.net/ads4ayz.js"></script>
-    <script>
-        try {
-            Typekit.load({
-                async: true
-            });
-        } catch (e) {}
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-route.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
