@@ -26,6 +26,7 @@ body {
 
 nav {
     width: 60%;
+    max-width: 1000px;
     margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 0;
@@ -98,6 +99,7 @@ nav h3 a {
 .main {
     padding: 100px 0;
     width: 60%;
+    max-width: 1000px;
     margin: 0 auto;
     line-height: 3em;
 }
@@ -120,7 +122,8 @@ nav h3 a {
 .about {
     margin: 0 auto;
     width: 60%;
-    padding: 50px 0;
+    max-width: 1000px;
+    padding-bottom: 50px;
     font-size: 1.2em;
     line-height: 1.6em;
     color: #555;
@@ -143,6 +146,7 @@ nav h3 a {
 .work {
     margin: 0 auto;
     width: 60%;
+    max-width: 1000px;
 }
 
 .work h2 {
@@ -196,6 +200,7 @@ nav h3 a {
 .contact {
     margin: 0 auto 25px auto;
     width: 60%;
+    max-width: 1000px;
 }
 
 .contact h2 {
@@ -238,6 +243,20 @@ nav h3 a {
 
 .project a:hover {
     color: #333;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ol b {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+ol p {
+    margin-top: 5px;
 }
 
 @media (max-width: 50em) {

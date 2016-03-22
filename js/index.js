@@ -9,8 +9,10 @@ app.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'html/about.html'
         })
         .when('/lab', {
-            templateUrl: 'html/lab.html',
-            controller: 'LabCtrl'
+            templateUrl: 'html/lab.html'
+        })
+        .when('/process', {
+            templateUrl: 'html/process.html'
         })
         .otherwise({
             redirectTo: '/'
