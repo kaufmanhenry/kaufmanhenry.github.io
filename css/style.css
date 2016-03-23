@@ -152,7 +152,7 @@ nav h3 a {
 .work h2 {
     font-weight: 400;
     color: #333;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .sec-work {
@@ -260,14 +260,24 @@ ol p {
 }
 
 .testimonial {
-    border-top: solid 1px #ecf0f1;
-    border-bottom: solid 1px #ecf0f1;
-    margin: 25px 0 50px 0;
-    padding: 20px 0;
+    margin-bottom: 40px;
     color: #555;
     line-height: 1.6em;
     font-size: 1.2em;
     text-align: justify;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+.testimonial a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.testimonial a:hover {
+    color: #333;
 }
 
 @media (max-width: 50em) {
