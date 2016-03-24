@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(https://fonts.googleapis.com/css?family=Karla);
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #fff;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Karla', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -223,7 +223,7 @@ nav h3 a {
 }
 
 .icons {
-    font-size: 20px;
+    font-size: 1.5em;
     margin-top: 10px;
 }
 
@@ -264,7 +264,7 @@ ol p {
     color: #555;
     line-height: 1.6em;
     font-size: 1.2em;
-    text-align: justify;
+    text-align: left;
 }
 
 .testimonial p {
