@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Karla);
+@import url(https://fonts.googleapis.com/css?family=Hind);
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #fff;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Hind', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
