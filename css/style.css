@@ -1,11 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 * {
     margin: 0;
     padding: 0;
     transition: all .3s ease;
 }
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, 'SF UI Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
