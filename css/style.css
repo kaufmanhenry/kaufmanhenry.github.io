@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Avenir Next', Avenir, Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+article {
+    padding: 100px 25px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #0074D9;
+}
+a:hover {
+    text-decoration: underline;
+}
