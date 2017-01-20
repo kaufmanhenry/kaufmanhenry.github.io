@@ -7,33 +7,33 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'SF UI Text', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+    font: 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 article {
-    padding: 100px 25px;
-    max-width: 640px;
+    padding: 8rem 2rem;
+    max-width: 30rem;
     margin: 0 auto;
 }
 
 h1 {
-    font-weight: 500;
-    font-size: 2.5rem;
+    font-weight: 400;
+    font-size: 1.5rem;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 1.8rem;
 }
 
 p {
-    color: #555;
-    font-size: 1.25rem;
-    line-height: 2rem;
+    color: #777;
+    font-size: 1rem;
+    line-height: 1.8rem;
 }
 
 a {
     text-decoration: none;
-    color: #0074D9;
+    color: #007AFF;
     font-weight: 500;
 }
 
