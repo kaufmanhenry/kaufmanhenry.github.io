@@ -10,7 +10,6 @@ html, body {
     font: 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #111;
 }
 
 article {
@@ -23,9 +22,17 @@ article {
     margin-bottom: 2rem;
 }
 
+.circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: #FFDC00;
+    margin-bottom: 4rem;
+}
+
 h1 {
     font-size: 4rem;
-    color: #fff;
+    color: #111;
 }
 
 hr {
@@ -33,18 +40,18 @@ hr {
     border: none;
     width: 4rem;
     height: .5rem;
-    background-color: #ffff00;
+    background-color: #111;
 }
 
 p {
-    color: #ccc;
+    color: #8E8E93;
     font-size: 1.5rem;
     line-height: 3rem;
 }
 
 a {
     text-decoration: none;
-    color: #ffff00;
+    color: #FFDC00;
     font-weight: 500;
 }
 
