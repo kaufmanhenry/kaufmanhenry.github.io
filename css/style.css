@@ -7,15 +7,14 @@
 html, body {
     height: 100%;
     width: 100%;
-    font: 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: 100% 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 article {
-    padding: 8rem 2rem;
-    max-width: 30rem;
-    margin: 0 auto;
+    max-width: 40rem;
+    margin: 10rem;
 }
 
 .large {
@@ -24,16 +23,22 @@ article {
 }
 
 h1 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: #4A4A4A;
-    margin-bottom: 1.5rem;
+    font-size: 4rem;
+    color: #111;
+}
+
+hr {
+    margin: 6rem 0;
+    border: none;
+    width: 4rem;
+    height: .5rem;
+    background-color: #111;
 }
 
 p {
     color: #8E8E93;
-    font-size: 1rem;
-    line-height: 1.8rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
 }
 
 a {
@@ -44,4 +49,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 50rem) {
+    article {
+        margin: 4rem 2rem;
+    }
 }
