@@ -7,9 +7,10 @@
 html, body {
     height: 100%;
     width: 100%;
-    font: 100% 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #111;
 }
 
 article {
@@ -24,7 +25,7 @@ article {
 
 h1 {
     font-size: 4rem;
-    color: #111;
+    color: #fff;
 }
 
 hr {
@@ -32,18 +33,18 @@ hr {
     border: none;
     width: 4rem;
     height: .5rem;
-    background-color: #111;
+    background-color: #ffff00;
 }
 
 p {
-    color: #8E8E93;
+    color: #ccc;
     font-size: 1.5rem;
     line-height: 3rem;
 }
 
 a {
     text-decoration: none;
-    color: #007AFF;
+    color: #ffff00;
     font-weight: 500;
 }
 
