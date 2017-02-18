@@ -23,10 +23,10 @@ article {
 }
 
 .circle {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 2rem;
-    background-color: #FFDC00;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    background-color: #FF4136;
     margin-bottom: 4rem;
 }
 
