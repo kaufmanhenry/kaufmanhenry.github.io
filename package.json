@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@compositor/x0": "3.0.2",
+    "react": "16.2.0"
+  },
+  "name": "hcjk.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hcjk/hcjk.github.io.git",
+  "author": "Henry Kaufman <hkaufman19@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "x0 dev src/App.js",
+    "build": "x0 build src/App.js --out-dir dist --static",
+    "deploy": "gh-pages -d dist"
+  }
+}
