@@ -1,0 +1,21 @@
+{
+  "name": "hcjk.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hcjk/hcjk.github.io.git",
+  "author": "Henry Kaufman <hkaufman19@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "styled-components": "2.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "parcel-bundler": "1.4.1"
+  }
+}
